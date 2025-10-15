@@ -1162,6 +1162,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     padding-bottom: 92%;
 }
 
+.whypartner-us .para-right .img-holder {
+    padding-bottom: 75%;
+}
+
+
 .img-holder {
   position: relative;
   display: block;
@@ -1245,6 +1250,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     border-radius: 50px;
     font-size: 18px;
     font-weight: 600; }
+
+    .whypartner-us {
+      background-color: #fff;
+    }
 
 
 @media(max-width:767px){
