@@ -17,13 +17,13 @@
 .stellarnav > ul > li > a:hover { color: #046f66;}
 
 /* first level dd */
-.stellarnav ul ul { top: auto; width: 220px; position: absolute; z-index: 9900; text-align: left; display: none; background: #ddd; }
+.stellarnav ul ul { top: auto; width: 300px; position: absolute; z-index: 9900; text-align: left; display: none; background: #ddd; }
 .stellarnav li li { display: block; border-bottom: #e8e8e8 solid 1px; }
 /* .stellarnav li li:hover { color: #046f66;} */
 .stellarnav li > ul > li:hover > a { color: #046f66;}
 
 /* second level dd */
-.stellarnav ul ul ul { top: 0; /* dd animtion - change to auto to remove */ left: 220px; }
+.stellarnav ul ul ul { top: 0; /* dd animtion - change to auto to remove */ left: 300px; }
 .stellarnav > ul > li:hover > ul > li:hover > ul { opacity: 1; visibility: visible; top: 0; }
 
 /* .drop-left */
