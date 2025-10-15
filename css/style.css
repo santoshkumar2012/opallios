@@ -1150,7 +1150,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .page-punchline .punchline-para span { color: var(--primary-text-color); font-weight: 600;}
 
 .full-width-section { background-color: var(--primary-bg); color: #fff; font-size: 1.3rem; line-height: 34px; }
-.custom-card { border-radius: 15px; background-color: var(--white-bg); padding: 35px; height: 100%;}
+.custom-card { border-radius: 15px; background-color: var(--white-bg); padding: 35px; height: 100%; color: #000;}
 
 .para-right .img-holder {  border-radius: 25px; }
 
@@ -1221,7 +1221,30 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .page-title { font-size: 2.2rem; line-height: 45px; }
 .card-title { color: var(--color-black); font-size: var(--font-size-title); font-weight: var(--font-weight-title); line-height: 32px; margin-bottom: 20px;}
+.fullwidth-row .custom-card p { font-size: 1.1rem; line-height: 27px; }
+.why-workforce .img-holder { padding-bottom: 75%; }
 
+
+
+/*--------------------------------------------------------------
+# Workforce Managemnet
+--------------------------------------------------------------*/
+
+.key-features-section {
+  background-color: #f6f6f6;
+}
+.green-bg { background-color: var(--primary-bg); color: #fff;}
+.digit {  
+  background-color: var(--primary-bg);  
+  color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600; }
 
 
 @media(max-width:767px){
