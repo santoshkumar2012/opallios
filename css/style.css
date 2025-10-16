@@ -1259,3 +1259,59 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 @media(max-width:767px){
   .custom-card { margin-top: 25px; }
 }
+
+
+/*-----------------------------24X7-app-support------------------------------------*/
+
+.business-support .card-title {
+  color: #fff;
+}
+.business-support p {
+ font-size: 1rem;
+ line-height: 25px;
+}
+.business-support ul {
+  font-size: 1rem;
+}
+.our-approach {
+  background-color: #fff;
+}
+.our-approach .punchline-para {
+    font-size: 1.2rem;
+}
+
+.strategy-section { 
+  background-image: url(../images/strategy-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.kpls-section {
+  background-color: #fff;
+}
+
+.industries-section {
+  background-image: url(../images/industries-section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+.industries-section .custom-card {
+   padding: 25px 15px 20px;
+}
+
+.industries-section .custom-card  .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.industries-section .custom-card p {
+  font-size: 1rem;
+  line-height: 25px;
+}
+.free-assessment-section h2 span {
+color: #046f66;
+}
