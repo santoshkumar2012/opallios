@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
 
 
@@ -15,6 +14,7 @@
   --font-weight-title: 600;
   --body-font-family: "Nunito", sans-serif;
   --heading-font-family: "Roboto Slab", serif;
+  --gray-bg: #f7f7f7;
 }
 
 body {
@@ -23,10 +23,15 @@ body {
   font-family: var(--body-font-family)
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: var(--heading-font-family)
 }
 
+.gray-bg { background: var(--gray-bg); }
 
 .mainheader {
   background-color: var(--secondary-bg);
@@ -375,9 +380,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .banner-content h2 {
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 300;
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1399px) {
@@ -1156,26 +1161,51 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 # Internal Pages
 --------------------------------------------------------------*/
 
-.page-punchline { background-color: #fff;}
-.page-punchline h2 { line-height: 45px; font-size: 1.8rem;}
-.page-punchline .punchline-para { font-size: 1.2rem;}
-.page-punchline .punchline-para span { color: var(--primary-text-color); font-weight: 600;}
+.page-punchline {
+  background-color: #fff;
+}
 
-.full-width-section { background-color: var(--primary-bg); color: #fff; font-size: 1.3rem; line-height: 34px; }
-.custom-card { border-radius: 15px; background-color: var(--white-bg); padding: 35px; height: 100%; color: #000;}
+.page-punchline h2 {
+  line-height: 45px;
+  font-size: 1.8rem;
+}
 
-.para-right .img-holder {  border-radius: 25px; }
+.page-punchline .punchline-para {
+  font-size: 1.2rem;
+}
+
+.page-punchline .punchline-para span {
+  color: var(--primary-text-color);
+  font-weight: 600;
+}
+
+.full-width-section {
+  background-color: var(--primary-bg);
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 34px;
+}
+
+.custom-card {
+  border-radius: 15px;
+  background-color: var(--white-bg);
+  padding: 25px;
+  height: 100%;
+  color: #000;
+}
+
+.custom-card ul li { margin-bottom:10px; }
+
+.para-right .img-holder {
+  border-radius: 25px;
+}
 
 .workforce-section .para-right .img-holder {
-    padding-bottom: 89%;
+  padding-bottom: 89%;
 }
 
 .pendmanagement-section .para-right .img-holder {
-    padding-bottom: 92%;
-}
-
-.whypartner-us .para-right .img-holder {
-    padding-bottom: 75%;
+  padding-bottom: 92%;
 }
 
 
@@ -1198,6 +1228,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   text-align: center;
   padding: 0;
 }
+
 .img-holder figure img {
   position: relative;
   width: 100%;
@@ -1207,25 +1238,28 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   z-index: 1;
   transition: all 0.6s ease;
   -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
   -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-position: 50% 50%;
 }
+
 .img-holder.img-cover figure img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 .img-holder.img-cover.img-top figure img {
   -o-object-position: 50% 0%;
-     object-position: 50% 0%;
+  object-position: 50% 0%;
 }
+
 .img-holder.img-cover.img-bottom figure img {
   -o-object-position: 0% 50%;
-     object-position: 0% 50%;
+  object-position: 0% 50%;
 }
 
 .img-effect:hover .img-holder figure img,
-.img-effect:hover .full-height-image > img {
+.img-effect:hover .full-height-image>img {
   /*transform: scale(1.1); */
   transform: scale(1.1) rotate(2deg);
 }
@@ -1236,10 +1270,27 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 # Business Support
 --------------------------------------------------------------*/
 
-.page-title { font-size: 2.2rem; line-height: 45px; }
-.card-title { color: var(--color-black); font-size: var(--font-size-title); font-weight: var(--font-weight-title); line-height: 32px; margin-bottom: 20px;}
-.fullwidth-row .custom-card p { font-size: 1.1rem; line-height: 27px; }
-.why-workforce .img-holder { padding-bottom: 75%; }
+.page-title {
+  font-size: 2.2rem;
+  line-height: 45px;
+}
+
+.card-title {
+  color: var(--color-black);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-title);
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.fullwidth-row .custom-card p {
+  font-size: 1.1rem;
+  line-height: 27px;
+}
+
+.why-workforce .img-holder {
+  padding-bottom: 75%;
+}
 
 
 
@@ -1250,26 +1301,35 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .key-features-section {
   background-color: #f6f6f6;
 }
-.green-bg { background-color: var(--primary-bg); color: #fff;}
-.digit {  
-  background-color: var(--primary-bg);  
+
+.green-bg {
+  background-color: var(--primary-bg);
   color: #fff;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    font-size: 18px;
-    font-weight: 600; }
+}
 
-    .whypartner-us {
-      background-color: #fff;
-    }
+.digit {
+  background-color: var(--primary-bg);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.whypartner-us {
+  background-color: #fff;
+}
 
 
-@media(max-width:767px){
-  .custom-card { margin-top: 25px; }
+@media(max-width:767px) {
+  .custom-card {
+    margin-top: 25px;
+    height: auto;
+  }
 }
 
 
@@ -1278,21 +1338,25 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .business-support .card-title {
   color: #fff;
 }
+
 .business-support p {
- font-size: 1rem;
- line-height: 25px;
+  font-size: 1rem;
+  line-height: 25px;
 }
+
 .business-support ul {
   font-size: 1rem;
 }
+
 .our-approach {
   background-color: #fff;
 }
+
 .our-approach .punchline-para {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-.strategy-section { 
+.strategy-section {
   background-image: url(../images/strategy-section-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -1311,32 +1375,35 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   background-position: center;
   padding: 50px 0;
 }
+
 .industries-section .custom-card {
-   padding: 25px 15px 20px;
+  padding: 25px 15px 20px;
 }
 
-.industries-section .custom-card  .card-title {
-    font-size: 1.1rem;
-    font-weight: 600;
+.industries-section .custom-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .industries-section .custom-card p {
   font-size: 1rem;
   line-height: 25px;
 }
+
 .free-assessment-section h2 span {
-color: #046f66;
+  color: #046f66;
 }
 
 .key-challenges-section .custom-card {
-   padding: 25px;
+  padding: 25px;
 }
+
 .key-challenges-section h2 {
   font-size: 1.5rem;
 }
 
 .key-challenges-section p {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .gradient-bg::before {
@@ -1348,51 +1415,102 @@ color: #046f66;
 }
 
 .bannerbg::before {
-    background-color: #fff !important;
+  background-color: #fff !important;
 }
 
-.blog-section.blogbg, .technology-section.blogbg {
-    background-color: #f5f5f5 !important
+.blog-section.blogbg,
+.technology-section.blogbg {
+  background-color: #f5f5f5 !important
 }
 
 .services-section h2 span.green-color {
-    color: #49a01a;
-    font-weight: 500;
+  color: #49a01a;
+  font-weight: 500;
 }
-.second-footer a { color: #5e5e5e !important;}
+
+.second-footer a {
+  color: #5e5e5e !important;
+}
 
 .second-footer .subscribe-form {
-    border: #55a921 solid 2px;
+  border: #55a921 solid 2px;
 }
 
-.second-footer .footer-top h4 { color: #000 !important;}
-.second-footer .footer-top .footer-links ul i { color: #000 !important;}
+.second-footer .footer-top h4 {
+  color: #000 !important;
+}
+
+.second-footer .footer-top .footer-links ul i {
+  color: #000 !important;
+}
 
 .gradient-theme .bt-col:hover {
   background: var(--gradient-bg) !important;
   color: #fff;
 }
 
-.gradient-theme .bt-col:hover .bt-digit, .gradient-theme .bt-col:hover .bt-content, .gradient-theme .bt-col:hover .fa-long-arrow-right { color: #fff;}
+.gradient-theme .bt-col:hover .bt-digit,
+.gradient-theme .bt-col:hover .bt-content,
+.gradient-theme .bt-col:hover .fa-long-arrow-right {
+  color: #fff;
+}
 
-.footer-gradient-bg { background: var(--gradient-bg);}
+.footer-gradient-bg {
+  background: var(--gradient-bg);
+}
 
 .lightGreenBg {
   background: var(--lightgreen-bg) !important;
 }
 
 .stellarnav.light li a {
-    color: #1c2c45;
-    font-size: 1.1rem;
-    font-weight: 600;
-    text-transform: capitalize;
+  color: #1c2c45;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 .stellarnav.light li.whatsapp a {
-    /* background: var(--gradient-bg) !important; */
+  /* background: var(--gradient-bg) !important; */
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  background: #000;
+}
+
+/****** Image Height ******/
+
+.per-10.img-holder { padding-bottom: 10%; }
+.per-20.img-holder { padding-bottom: 20%; }
+.per-30.img-holder { padding-bottom: 30%; }
+.per-40.img-holder { padding-bottom: 40%; }
+.per-50.img-holder { padding-bottom: 50%; }
+.per-55.img-holder { padding-bottom: 55%; }
+.per-60.img-holder { padding-bottom: 60%; }
+.per-65.img-holder { padding-bottom: 65%; }
+.per-70.img-holder { padding-bottom: 70%; }
+.per-75.img-holder { padding-bottom: 75%; }
+.per-80.img-holder { padding-bottom: 80%; }
+.per-85.img-holder { padding-bottom: 85%; }
+.per-90.img-holder { padding-bottom: 90%; }
+
+.bio-companies-section span, .whypartner-us span { color: var(--primary-text-color); font-weight: 600;}
+.overlay-content {     
+        position: absolute;
+    z-index: 1;
     color: #fff;
-    border-radius: 50px;
-    padding: 5px 15px;
-    font-size: 1rem;
-    background: #000;
+    bottom: 15px;
+    left: 30px;
+    text-align: left;
+    width: 50%;
+  }
+.overlay-content a { color: #0ca497; font-weight: 800; text-transform: uppercase; text-decoration: none;}
+
+@media(max-width:767px){
+
+.overlay-content { width: 80%;}
+.per-sm-50 { padding-bottom: 95% !important; }
+.banner-content .page-title { font-size: 1.5rem; line-height: 32px; }
+
 }
