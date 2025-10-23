@@ -134,6 +134,7 @@ section {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   text-decoration: none;
+  color: #fff;
 }
 
 .tj-primary-btn .btn-icon {
@@ -1200,10 +1201,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   border-radius: 25px;
 }
 
-.workforce-section .para-right .img-holder {
-  padding-bottom: 89%;
-}
-
 .pendmanagement-section .para-right .img-holder {
   padding-bottom: 92%;
 }
@@ -1273,6 +1270,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .page-title {
   font-size: 2.2rem;
   line-height: 45px;
+  font-weight: 300;
 }
 
 .card-title {
