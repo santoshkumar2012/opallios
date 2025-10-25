@@ -1195,7 +1195,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   color: #000;
 }
 
-.custom-card ul li { margin-bottom:10px; }
+.custom-card ul li { margin-bottom:5px; }
 
 .para-right .img-holder {
   border-radius: 25px;
@@ -1278,7 +1278,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   font-size: var(--font-size-title);
   font-weight: var(--font-weight-title);
   line-height: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .fullwidth-row .custom-card p {
@@ -1510,5 +1510,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .overlay-content { width: 80%;}
 .per-sm-50 { padding-bottom: 95% !important; }
 .banner-content .page-title { font-size: 1.5rem; line-height: 32px; }
+
+.card-title { margin-top: 15px;}
 
 }
