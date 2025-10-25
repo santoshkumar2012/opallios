@@ -523,7 +523,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .lowcode-col {
   background-color: var(--white-bg);
   color: #000;
-  min-height: 270px;
+  min-height: 315px;
 }
 
 
@@ -533,7 +533,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .blog-content {
-  background-color: #f7f7f7;
+  background-color: #fff;
   padding: 15px;
 }
 
@@ -544,12 +544,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .blog-column {
   background-color: var(--white-bg);
-  min-height: 495px;
+  min-height: 523px;
 }
 
 .testimonials .testimonial {
   line-height: 30px;
   background-color: #fff;
+  min-height: 485px;
 }
 
 .profile-content {
