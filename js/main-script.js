@@ -2,19 +2,27 @@
 var $ = jQuery;
 
 function updateWrapper() {
-    var takeHeight = $(".takeHeight").outerHeight();
-    var takeHeightAlt = $(".takeHeightAlt").outerHeight();
-    var takeHeight2 = $(".takeHeight2").outerHeight();
-    var takeHeight3 = $(".takeHeight3").outerHeight();
-    var takeHeight4 = $(".takeHeight4").outerHeight();
-	var takeHeight5 = $(".takeHeight5").outerHeight();
-    $(".giveHeight").css({ paddingBottom: takeHeight });
-    $(".giveHeightAlt").css({ paddingBottom: takeHeightAlt });
-    $(".giveHeight2").css({ paddingBottom: takeHeight2 });
-    $(".giveHeight3").css({ paddingBottom: takeHeight3 });
-    $(".giveHeight4").css({ paddingBottom: takeHeight4 });
-	$(".giveHeight5").css({ paddingBottom: takeHeight5 });
+    // Run only for large screens (width >= 992px)
+    if ($(window).width() >= 992) {
+        var takeHeight = $(".takeHeight").outerHeight();
+        var takeHeightAlt = $(".takeHeightAlt").outerHeight();
+        var takeHeight2 = $(".takeHeight2").outerHeight();
+        var takeHeight3 = $(".takeHeight3").outerHeight();
+        var takeHeight4 = $(".takeHeight4").outerHeight();
+        var takeHeight5 = $(".takeHeight5").outerHeight();
+
+        $(".giveHeight").css({ paddingBottom: takeHeight });
+        $(".giveHeightAlt").css({ paddingBottom: takeHeightAlt });
+        $(".giveHeight2").css({ paddingBottom: takeHeight2 });
+        $(".giveHeight3").css({ paddingBottom: takeHeight3 });
+        $(".giveHeight4").css({ paddingBottom: takeHeight4 });
+        $(".giveHeight5").css({ paddingBottom: takeHeight5 });
+    } else {
+        // Reset padding for mobile/tablet
+        $(".giveHeight, .giveHeightAlt, .giveHeight2, .giveHeight3, .giveHeight4, .giveHeight5").css({ paddingBottom: "" });
+    }
 }
+
 
 $(document).ready(function () {
     updateWrapper();

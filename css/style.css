@@ -1515,3 +1515,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .card-title { margin-top: 15px;}
 
 }
+
+.btn-primary { border: none; background-color: #000; border-radius: 50px; text-transform: uppercase; padding: 10px; font-weight: 600; }
+.btn-primary:hover { background-color: #006D67;}
+.text-primary { color: #006D67 !important;}
+.card {
+  border-radius: 25px;
+}
+.card .form-control {
+ border-radius: 25px;
+}
