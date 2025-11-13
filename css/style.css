@@ -498,7 +498,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .technology-col {
   background-color: var(--white-bg);
-  min-height: 380px;
+  min-height: 405px;
 }
 
 .technology-col a {
@@ -1525,3 +1525,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .card .form-control {
  border-radius: 25px;
 }
+
+.technology-content { line-height: 21px;}
+.technology-columns { min-height: 250px;}
